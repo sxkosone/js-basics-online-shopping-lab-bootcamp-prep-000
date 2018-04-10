@@ -49,9 +49,11 @@ function removeFromCart(item) {
   // write your code here
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
-      //delete the item
-    } else {
+      //delete the item from cart
       
+      return cart;
+    } else {
+      return "That item is not in your cart.";
     }
   }
 }
