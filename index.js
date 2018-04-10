@@ -54,10 +54,10 @@ function removeFromCart(item) {
       cart = newCart;
       return cart;
     }
-    return "That item is not in your cart.";
-    }
   }
+    return "That item is not in your cart.";
 }
+
 
 function placeOrder(cardNumber) {
   // write your code here
